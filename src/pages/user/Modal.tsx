@@ -81,7 +81,7 @@ const UserModal: React.FunctionComponent<ModalProps> = React.memo((props) => {
                     hasFeedback
                     {...formItemLayout}
                 >
-                    <Input />
+                    <Input placeholder='Enter username' />
                 </FormItem>
                 <FormItem
                     label='Password'
@@ -95,7 +95,7 @@ const UserModal: React.FunctionComponent<ModalProps> = React.memo((props) => {
                     hasFeedback
                     {...formItemLayout}
                 >
-                    <Input.Password />
+                    <Input.Password placeholder='Enter password' />
                 </FormItem>
                 <FormItem
                     label='Confirm'
@@ -125,7 +125,7 @@ const UserModal: React.FunctionComponent<ModalProps> = React.memo((props) => {
                     hasFeedback
                     {...formItemLayout}
                 >
-                    <Input.Password />
+                    <Input.Password placeholder='Enter confirm password' />
                 </FormItem>
                 <Form.Item
                     label='Role'
