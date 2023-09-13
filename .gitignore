@@ -17,7 +17,18 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env.development
+.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# cache
+.eslintcache
+.cache
+.idea
+debug.log
+.vscode/bookmarks.json
+# war build
+target/
+npm/
